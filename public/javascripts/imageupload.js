@@ -77,10 +77,10 @@ angular.module('imageupload', [])
             restrict: 'A',
             scope: {
                 image: '=',
-                resizeMaxHeight: '@?',
-                resizeMaxWidth: '@?',
-                resizeQuality: '@?',
-                resizeType: '@?',
+                resizeMaxHeight: '@',
+                resizeMaxWidth: '@',
+                resizeQuality: '@',
+                resizeType: '@',
             },
             link: function postLink(scope, element, attrs, ctrl) {
 
